@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<small>This is a mirror of [https://film-storyboards.tmblr.com](https://film-storyboards.tmblr.com "Film Storyboards on Tumblr")</small>
+<small>This is a mirror of [https://film-storyboards.tumblr.com](https://film-storyboards.tumblr.com "Film Storyboards on Tumblr")</small>
 
 *[Film Storyboards](https://film-storyboards.com "Film Storyboards Portfolio")* provides with previz, production design and visual storytelling services for film, animation, <strike> advertising</strike> and cross-media projects.
 
