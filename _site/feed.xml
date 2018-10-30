@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-30T17:47:14+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Drawers Surplus</title><subtitle>Drawings, rough sketches, storyboards and concept illustrations accumulated in the drawers over the years</subtitle><entry><title type="html">Tumblr to Jekyll migration</title><link href="http://localhost:4000/2018/10/30/tumblr-to-jekyll-migration.html" rel="alternate" type="text/html" title="Tumblr to Jekyll migration" /><published>2018-10-30T14:29:33+01:00</published><updated>2018-10-30T14:29:33+01:00</updated><id>http://localhost:4000/2018/10/30/tumblr-to-jekyll-migration</id><content type="html" xml:base="http://localhost:4000/2018/10/30/tumblr-to-jekyll-migration.html">&lt;h1 id=&quot;migrate-tumblr-blog-to-jekyll&quot;&gt;Migrate Tumblr blog to Jekyll&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -r rubygems -e 'require &quot;jekyll-import&quot;;
+JekyllImport::Importers::Tumblr.run({
+  &quot;url&quot;            =&amp;gt; &quot;https://film-storyboards.tumblr.com&quot;,
+  &quot;format&quot;         =&amp;gt; &quot;html&quot;, # or &quot;md&quot;
+  &quot;grab_images&quot;    =&amp;gt; true,  # whether to download images as well.
+  &quot;add_highlights&quot; =&amp;gt; false,  # whether to wrap code blocks (indented 4 spaces) in a Liquid &quot;highlight&quot; tag
+  &quot;rewrite_urls&quot;   =&amp;gt; false   # whether to write pages that redirect from the old Tumblr paths to the new Jekyll paths
+})'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;instruction&quot;&gt;Instruction&lt;/h2&gt;
+
+&lt;p&gt;Started from that &lt;a href=&quot;https://gist.github.com/ndarville/5f8a7fb93191801de460c5ebe21cc9d4&quot;&gt;Gist&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir tumblr
+cd tumblr
+# Replace `surplus` with your Tumblr blog name
+jekyll new surplus
+cd surplus
+
+npm install --global surge
+gem install jekyll -v 3.8.3
+gem install jekyll-import
+touch surplus.rb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Open &lt;code class=&quot;highlighter-rouge&quot;&gt;surplus.rb&lt;/code&gt; and enter this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;require &quot;jekyll-import&quot;;
+
+JekyllImport::Importers::Tumblr.run({
+&quot;url&quot;            =&amp;gt; &quot;https://film-storyboards.tumblr.com&quot;,
+&quot;format&quot;         =&amp;gt; &quot;md&quot;, # &quot;md&quot; misses links and images etc
+&quot;grab_images&quot;    =&amp;gt; true,
+&quot;add_highlights&quot; =&amp;gt; false,
+&quot;rewrite_urls&quot;   =&amp;gt; false # `true` breaks build
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Run the file to export your blog:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby surplus.rb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will export your site into two folders: &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts/&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;tumblr_files/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create the site:&lt;/p&gt;
+
+&lt;p&gt;We use the exported data to build the static site:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Jekyll build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;categories--tags&quot;&gt;Categories &amp;amp; Tags&lt;/h2&gt;
+
+&lt;p&gt;Storyboards&lt;/p&gt;
+
+&lt;p&gt;Aljubarrota Battle&lt;/p&gt;
+
+&lt;p&gt;Atoleiros Battle&lt;/p&gt;
+
+&lt;p&gt;Grand Froid&lt;/p&gt;
+
+&lt;p&gt;Rattrapage&lt;/p&gt;
+
+&lt;p&gt;Suite Française&lt;/p&gt;
+
+&lt;p&gt;Ello Mobile&lt;/p&gt;
+
+&lt;p&gt;Klare Lijn — Ligne Claire&lt;/p&gt;
+
+&lt;p&gt;Character Design&lt;/p&gt;
+
+&lt;p&gt;Props Design&lt;/p&gt;
+
+&lt;p&gt;Set Design&lt;/p&gt;
+
+&lt;p&gt;Graphic Design&lt;/p&gt;
+
+&lt;p&gt;Concept Art&lt;/p&gt;
+
+&lt;p&gt;Sketches&lt;/p&gt;
+
+&lt;p&gt;Costumes&lt;/p&gt;
+
+&lt;p&gt;Sketchbooks&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;Notes on drawing&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;Horses&lt;/p&gt;
+
+&lt;p&gt;Illustration&lt;/p&gt;
+
+&lt;p&gt;Animation&lt;/p&gt;
+
+&lt;p&gt;Courtroom sketches&lt;/p&gt;
+
+&lt;p&gt;Architecture sketches&lt;/p&gt;
+
+&lt;p&gt;Templates &lt;del&gt;(storyboard templates, film treatments, layouts)&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;Apps &amp;amp; Software&lt;/p&gt;
+
+&lt;p&gt;Shoutout&lt;/p&gt;
+
+&lt;p&gt;Freelance life &lt;del&gt;from hell&lt;/del&gt; (?)&lt;/p&gt;
+
+&lt;p&gt;Filmmaking Resources&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;get-the-first-image-from-each-post-jekyll&quot;&gt;Get The first image from each post (Jekyll)&lt;/h2&gt;
+
+&lt;h3 id=&quot;method-1-using-the-excerpt&quot;&gt;Method 1, using the excerpt&lt;/h3&gt;
+
+&lt;p&gt;The code from &lt;code class=&quot;highlighter-rouge&quot;&gt;home.html&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;archive-taxonomy.html&lt;/code&gt;` with styling:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;prose py-4&quot; itemprop=&quot;articleBody&quot;&amp;gt;
+&amp;lt;a href=&quot;&quot;&amp;gt;
+
+&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This works, but the problem is that in this theme it repeats the paragraph truncated from the &lt;code class=&quot;highlighter-rouge&quot;&gt;post_block.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;method-2&quot;&gt;Method 2&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;div class=&quot;prose py-4&quot; itemprop=&quot;articleBody&quot;&amp;gt;
+      &amp;lt;a href=&quot;&quot;&amp;gt;
+
+        
+        
+          
+
+      &amp;lt;/a&amp;gt;
+        &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Which is found in this question from Stackoveflow:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/25463865/in-jekyll-how-do-i-grab-a-posts-first-image&quot;&gt;In Jekyll How do I grab a post’s first image?&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;bulk-search--replace-text-in-multiple-files&quot;&gt;Bulk search &amp;amp; replace text in multiple files&lt;/h2&gt;
+
+&lt;p&gt;In the command line&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;perl -pi -w -e 's/SEARCH_FOR/REPLACE_WITH/g;' *.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In my case this was:&lt;/p&gt;
+
+&lt;p&gt;First cd the folder:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /Users/hoa/stbtmblr/_posts
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then run:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;perl -pi -w -e 's/tumblr_files/images/g;' *.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Then, for tags:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;perl -pi -w -e 's/costumes/Costumes/g;' *.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;perl -pi -w -e 's/Ello mobile/Ello Mobile/g;' *.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Images:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;perl -pi -w -e 's/tumblr_/picture_/g;' *.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/frederikvoigt/jekyll-videoposts&quot;&gt;https://github.com/frederikvoigt/jekyll-videoposts&lt;/a&gt; + regular embeds (see &lt;code class=&quot;highlighter-rouge&quot;&gt;video.html&lt;/code&gt; in —includes)&lt;/p&gt;
+
+&lt;h2 id=&quot;404-page&quot;&gt;404 page&lt;/h2&gt;
+
+&lt;h2 id=&quot;terminal&quot;&gt;Terminal&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;MBP-de-Yves:~ hoa$ cd stbtmblr
+MBP-de-Yves:stbtmblr hoa$ jekyll new Film Storyboards Drawers
+Running bundle install in /Users/hoa/stbtmblr/Film Storyboards Drawers...
+cd   Bundler: The dependency tzinfo-data (&amp;gt;= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+  Bundler: Fetching gem metadata from https://rubygems.org/...............
+  Bundler: Fetching gem metadata from https://rubygems.org/..
+  Bundler: Resolving dependencies...
+  Bundler: Using public_suffix 3.0.3
+  Bundler: Using (..)
+  Bundler: Using jekyll-seo-tag 2.5.0
+  Bundler: Fetching minima 2.5.0
+  Bundler: Installing minima 2.5.0
+  Bundler: Bundle complete! 4 Gemfile dependencies, 29 gems now installed.
+  Bundler: Use `bundle info [gemname]` to see where a bundled gem is installed.
+New jekyll site installed in /Users/hoa/stbtmblr/Film Storyboards Drawers. 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Migrate Tumblr blog to Jekyll</summary></entry><entry><title type="html">Carte</title><link href="http://localhost:4000/2018/09/22/carte-loup-et-les-hommes.html" rel="alternate" type="text/html" title="Carte" /><published>2018-09-22T10:21:39+02:00</published><updated>2018-09-22T10:21:39+02:00</updated><id>http://localhost:4000/2018/09/22/carte-loup-et-les-hommes</id><content type="html" xml:base="http://localhost:4000/2018/09/22/carte-loup-et-les-hommes.html">&lt;img src=&quot;/images/Carte_VS_09_1920.png&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Carte pour le frontispice du roman d'&lt;strong&gt;Emmanuelle Pirotte&lt;/strong&gt;, &lt;em&gt;Loup et les Hommes&lt;/em&gt;
+Editeur: &lt;strong&gt;Le Cherche-Midi&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="Graphic Design" /><summary type="html">Carte pour le frontispice du roman d'Emmanuelle Pirotte, Loup et les Hommes Editeur: Le Cherche-Midi</summary></entry><entry><title type="html">credit mutuel Storyboards</title><link href="http://localhost:4000/2018/08/20/credit-mutuel-storyboard.html" rel="alternate" type="text/html" title="credit mutuel Storyboards" /><published>2018-08-20T11:30:29+02:00</published><updated>2018-08-20T11:30:29+02:00</updated><id>http://localhost:4000/2018/08/20/credit-mutuel-storyboard</id><content type="html" xml:base="http://localhost:4000/2018/08/20/credit-mutuel-storyboard.html">&lt;img src=&quot;/images/picture_pdrnttXyKt1s6ptp7o1_1280.png&quot;/&gt;&lt;br/&gt;</content><author><name></name></author><category term="Storyboards" /><summary type="html"></summary></entry><entry><title type="html">Storyboards credit mutuel</title><link href="http://localhost:4000/2018/08/20/storyboard-credit-mutuel.html" rel="alternate" type="text/html" title="Storyboards credit mutuel" /><published>2018-08-20T10:21:39+02:00</published><updated>2018-08-20T10:21:39+02:00</updated><id>http://localhost:4000/2018/08/20/storyboard-credit-mutuel</id><content type="html" xml:base="http://localhost:4000/2018/08/20/storyboard-credit-mutuel.html">&lt;img src=&quot;/images/picture_pdrmo3jbrx1s6ptp7o1_1280.png&quot;/&gt;&lt;br/&gt;&lt;img src=&quot;/images/picture_pdrmo3jbrx1s6ptp7o2_1280.png&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Storyboard capsules TV&lt;/p&gt;
+
+&lt;p&gt;Client: &lt;strong&gt;Crédit Mutuel&lt;/strong&gt;
+Agence: &lt;strong&gt;109 Paris&lt;/strong&gt;
+Producer: &lt;strong&gt;Carine La Haye&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="Storyboards" /><summary type="html">Storyboard capsules TV</summary></entry><entry><title type="html">concept abdullah al salem cultural center kuwait</title><link href="http://localhost:4000/2018/08/17/concept-abdullah-al-salem-cultural-center-kuwait.html" rel="alternate" type="text/html" title="concept abdullah al salem cultural center kuwait" /><published>2018-08-17T04:51:49+02:00</published><updated>2018-08-17T04:51:49+02:00</updated><id>http://localhost:4000/2018/08/17/concept-abdullah-al-salem-cultural-center-kuwait</id><content type="html" xml:base="http://localhost:4000/2018/08/17/concept-abdullah-al-salem-cultural-center-kuwait.html">&lt;img src=&quot;/images/picture_p21q6eVnN81srnzqfo1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;a href=&quot;https://concept-Illustration.tumblr.com/post/169314557736/concept-abdullah-al-salem-cultural-center-kuwait&quot; class=&quot;picture_blog&quot;&gt;concept-Illustration&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Concept Illustration for a show.&lt;/p&gt;&lt;/blockquote&gt;</content><author><name></name></author><category term="Concept Art" /><summary type="html">concept-Illustration:</summary></entry><entry><title type="html">Anime storyboard template for Apple Pages</title><link href="http://localhost:4000/2018/08/14/anime-storyboard-template-apple-pages.html" rel="alternate" type="text/html" title="Anime storyboard template for Apple Pages" /><published>2018-08-14T15:53:27+02:00</published><updated>2018-08-14T15:53:27+02:00</updated><id>http://localhost:4000/2018/08/14/anime-storyboard-template-apple-pages</id><content type="html" xml:base="http://localhost:4000/2018/08/14/anime-storyboard-template-apple-pages.html">&lt;img src=&quot;/images/picture_pdgy13dRLs1s6ptp7o1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This is an anime Storyboards template for DIN A4 vertical (portrait) page ready to use. You can edit this .template file in &lt;a href=&quot;https://www.apple.com/pages/&quot;&gt;Apple Pages&lt;/a&gt;. Designed for anime Storyboards, with 5 frames per sheet, each frame sets an exact 1.85:1 aspect ratio space for pictures. The layout draws inspiration from the excellent &lt;a href=&quot;http://www.ghibli.jp&quot;&gt;Studio Ghibli&lt;/a&gt; Storyboards.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Boxes:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;The first column indicates cuts. Use it to number your shots—you can have several pictures for the same shot.&lt;/li&gt;
+&lt;li&gt;The second and main column stands for the picture screen. That’s where you draw or place your pictures.&lt;/li&gt;
+&lt;li&gt;Then there is a space for your script notes for action, dialogue, etc.&lt;/li&gt;
+&lt;li&gt;The last column, time, is for annotating the duration of your shots in seconds.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;To get started, just change the text and drop your pictures into the &lt;em&gt;placeholder frames&lt;/em&gt;. To add a page, click on the (+ sign) &lt;strong&gt;Add Page&lt;/strong&gt; above the left navigation panel. To change a given page&amp;rsquo;s master, use the right navigation panel (under &lt;strong&gt;Format&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;To change pagination, go to &lt;strong&gt;Format&lt;/strong&gt;, then &lt;strong&gt;Page Numbering&lt;/strong&gt;. To remove it, toggle off the Footer&amp;rsquo;s visibility. Change the template to make it your own. Fill in the header, add your credit and project details, add your production title or your logo. Your layout will be ready to export for print or screen in no time.&lt;/p&gt;
+
+&lt;p&gt;FYI: The document size is a 21 x 30cm vertical sheet, about the size of a DIN A4 sheet. The body text font is Avenir Light, 9 points with single line spacing. You’ll find different typographic styles in the Format panel.&lt;/p&gt;
+
+&lt;p&gt;Note that you need the Avenir typeface license to use this template.&lt;/p&gt;
+
+&lt;p&gt;If you need Storyboards arrows &amp;amp; icons, you can get some for free here: &lt;a href=&quot;https://gum.co/Storyboards-arrows&quot;&gt;https://gum.co/Storyboards-arrows&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This template is ideal to design quick anime Storyboards layouts and will help you create beautiful presentations!&lt;/p&gt;
+
+&lt;p&gt;You can get the Japanese version of this template, for Apple Pages at &lt;a href=&quot;https://gum.co/Ghibli_Pages_Jp&quot;&gt;https://gum.co/Ghibli_Pages_Jp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can get the free version of this template, in PDF format at &lt;a href=&quot;https://gum.co/ghibli-Storyboards-english&quot;&gt;https://gum.co/ghibli-Storyboards-english&lt;/a&gt; and the editable Adobe InDesign version at &lt;a href=&quot;https://gum.co/Ghibli_En_idml_185&quot;&gt;https://gum.co/Ghibli_En_idml_185&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&quot;https://gumroad.com/js/gumroad.js&quot;&gt;&lt;/script&gt;&lt;a class=&quot;gumroad-button&quot; href=&quot;https://gum.co/Ghibli_Pages_En?wanted=true&quot; target=&quot;_blank&quot;&gt;Get this anime Storyboards template!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Templates" /><summary type="html">This is an anime Storyboards template for DIN A4 vertical (portrait) page ready to use. You can edit this .template file in Apple Pages. Designed for anime Storyboards, with 5 frames per sheet, each frame sets an exact 1.85:1 aspect ratio space for pictures. The layout draws inspiration from the excellent Studio Ghibli Storyboards.</summary></entry><entry><title type="html">1.85:1 Anime storyboard template for Apple Pages</title><link href="http://localhost:4000/2018/08/14/widescreen-anime-storyboard-template-apple-pages.html" rel="alternate" type="text/html" title="1.85:1 Anime storyboard template for Apple Pages" /><published>2018-08-14T10:30:24+02:00</published><updated>2018-08-14T10:30:24+02:00</updated><id>http://localhost:4000/2018/08/14/widescreen-anime-storyboard-template-apple-pages</id><content type="html" xml:base="http://localhost:4000/2018/08/14/widescreen-anime-storyboard-template-apple-pages.html">&lt;img src=&quot;/images/picture_pdgj2okrku1s6ptp7o1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;This is an anime Storyboards template for DIN A4 vertical (portrait) page ready to use. You can edit the .template file in Apple Pages. Designed for widescreen Storyboards, with 5 frames per sheet, each frame sets an exact 1.85:1 aspect ratio (Widescreen) space for pictures. The layout draws inspiration from the excellent &lt;a href=&quot;http://www.ghibli.jp&quot;&gt;Studio Ghibli&lt;/a&gt; Storyboards.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Boxes:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The first column, &lt;strong&gt;カット&lt;/strong&gt; indicates cuts. Use it to number your shots.&lt;/p&gt;
+
+&lt;p&gt;The second and main column is &lt;strong&gt;画面&lt;/strong&gt; which stands for the picture screen. That’s where you draw or place your Storyboards shots.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;内容&lt;/strong&gt; stands for content, use this space for your notes (dialogue, action, etc.)&lt;/p&gt;
+
+&lt;p&gt;The last column, &lt;strong&gt;秒&lt;/strong&gt; is for annotating the duration of your shots in seconds.&lt;/p&gt;
+
+&lt;p&gt;To get started, just change the text and drop your pictures into the placeholder frames. To add a page, click on the (+ sign) &lt;strong&gt;Add Page&lt;/strong&gt; above the left navigation panel. To change a given page&amp;rsquo;s master, use the right navigation panel (under &lt;strong&gt;Format&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;To change pagination, go to &lt;strong&gt;Format&lt;/strong&gt;, then &lt;strong&gt;Page Numbering&lt;/strong&gt;. To remove it, toggle off the &lt;strong&gt;Footer&lt;/strong&gt;&amp;rsquo;s visibility. Change the template to make it your own. Fill in the header, add your credit and project details, add your production title or your logo. Your layout will be ready to export for print or screen in no time.&lt;/p&gt;
+
+&lt;p&gt;FYI: The document size is a 21 x 30cm vertical sheet, about the size of a DIN A4 sheet. The body text font is Avenir Light,10 points with single line spacing. You’ll find different typographic styles in the Format panel.&lt;/p&gt;
+
+&lt;p&gt;Note that you need the Avenir typeface license to use this template.&lt;/p&gt;
+
+&lt;p&gt;If you need Storyboards arrows &amp;amp; icons, you can get some for free here: &lt;a href=&quot;https://gum.co/Storyboards-arrows&quot;&gt;https://gum.co/Storyboards-arrows&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This template is ideal to design quick anime Storyboards layouts and will help you create beautiful presentations!&lt;/p&gt;
+
+&lt;p&gt;You can get the free version of this template, in PDF format at &lt;a href=&quot;https://gum.co/ghibli-Storyboards-english&quot;&gt;https://gum.co/ghibli-Storyboards-english&lt;/a&gt; and the editable Adobe InDesign version at &lt;a href=&quot;https://gum.co/Ghibli_En_idml_185&quot;&gt;https://gum.co/Ghibli_En_idml_185&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&quot;https://gumroad.com/js/gumroad.js&quot;&gt;&lt;/script&gt;&lt;a class=&quot;gumroad-button&quot; href=&quot;https://gum.co/Ghibli_Pages_En?wanted=true&quot; target=&quot;_blank&quot;&gt;Get this anime template for Pages!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="Templates" /><summary type="html">This is an anime Storyboards template for DIN A4 vertical (portrait) page ready to use. You can edit the .template file in Apple Pages. Designed for widescreen Storyboards, with 5 frames per sheet, each frame sets an exact 1.85:1 aspect ratio (Widescreen) space for pictures. The layout draws inspiration from the excellent Studio Ghibli Storyboards.</summary></entry><entry><title type="html">decontamination</title><link href="http://localhost:4000/2018/08/13/decontamination.html" rel="alternate" type="text/html" title="decontamination" /><published>2018-08-13T12:25:00+02:00</published><updated>2018-08-13T12:25:00+02:00</updated><id>http://localhost:4000/2018/08/13/decontamination</id><content type="html" xml:base="http://localhost:4000/2018/08/13/decontamination.html">&lt;img src=&quot;/images/picture_pdetpokux21s6ptp7o1_1280.jpg&quot;/&gt;&lt;br/&gt;&lt;p&gt;Decontamination of the robot.&lt;/p&gt;</content><author><name></name></author><category term="Sketchbooks" /><summary type="html">Decontamination of the robot.</summary></entry><entry><title type="html">Free invoices tracker for mac numbers</title><link href="http://localhost:4000/2018/08/13/free-invoices-tracker-for-mac-numbers.html" rel="alternate" type="text/html" title="Free invoices tracker for mac numbers" /><published>2018-08-13T07:45:33+02:00</published><updated>2018-08-13T07:45:33+02:00</updated><id>http://localhost:4000/2018/08/13/free-invoices-tracker-for-mac-numbers</id><content type="html" xml:base="http://localhost:4000/2018/08/13/free-invoices-tracker-for-mac-numbers.html">&lt;img src=&quot;/images/picture_pdegm5Vlma1wepsnoo1_1280.png&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;a href=&quot;https://templates-vault.tumblr.com/post/176949194574/free-invoices-tracker-for-mac-numbers&quot; class=&quot;picture_blog&quot;&gt;templates-vault&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If you are a fellow freelancer, feel free to get this free spreadsheet template for &lt;strong&gt;Apple Numbers&lt;/strong&gt; to help keeping track of your assignment invoices and clients payments. The template is set in €, which you can easily change in Numbers. It has a &lt;em&gt;21% VAT&lt;/em&gt; column which you can customize to your country’s percentage, remove or set to 0% if VAT doesn’t apply. The net earning column helps you give you an idea of your actual earnings—check with your accountant which percentage best applies to you. Add or remove rows as you see fit. The template covers a full year.&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&quot;https://gumroad.com/js/gumroad.js&quot;&gt;&lt;/script&gt;&lt;a class=&quot;gumroad-button&quot; href=&quot;https://gum.co/invoices-tracker?wanted=true&quot;&gt;Get this free Invoices tracker spreadsheet!&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="Templates" /><summary type="html">templates-vault:</summary></entry><entry><title type="html">Client list template</title><link href="http://localhost:4000/2018/08/13/client-list-template.html" rel="alternate" type="text/html" title="Client list template" /><published>2018-08-13T05:32:18+02:00</published><updated>2018-08-13T05:32:18+02:00</updated><id>http://localhost:4000/2018/08/13/client-list-template</id><content type="html" xml:base="http://localhost:4000/2018/08/13/client-list-template.html">&lt;img src=&quot;/images/picture_pdeadeZ3xP1wepsnoo1_1280.png&quot;/&gt;&lt;br/&gt;&lt;p&gt;&lt;a href=&quot;https://templates-vault.tumblr.com/post/176946479864/client-list-template&quot; class=&quot;picture_blog&quot;&gt;templates-vault&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A free spreadsheet template to help freelancers keeping track of prospective clients.&lt;/p&gt;
+
+&lt;p&gt;This is a template for Apple Numbers (.nmbtemplate file), so Mac users only.&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&quot;https://gumroad.com/js/gumroad.js&quot;&gt;&lt;/script&gt;&lt;a class=&quot;gumroad-button&quot; href=&quot;https://gum.co/client-list?wanted=true&quot;&gt;Get this free client list template!&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="Templates" /><summary type="html">templates-vault:</summary></entry></feed>
