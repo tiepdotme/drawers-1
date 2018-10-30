@@ -29,7 +29,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-archives (2.1.1)
       jekyll (>= 2.4)
-    jekyll-athena (0.0.2)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-paginate-v2 (2.0.0)
@@ -67,7 +66,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-archives
-  jekyll-athena
   jekyll-feed
   jekyll-paginate-v2
   jekyll-sitemap
