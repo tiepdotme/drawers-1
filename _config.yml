@@ -27,7 +27,7 @@ social_username: FilmStoryboards
 
 # Build settings
 markdown: kramdown
-theme: jekyll-athena
+# theme: jekyll-athena
 
 plugins:
   - jekyll-feed
