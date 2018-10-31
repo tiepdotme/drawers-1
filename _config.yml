@@ -19,7 +19,6 @@ description: Drawings, rough sketches, storyboards and concept illustrations acc
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  YJPL
-theme: jekyll-athena
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
