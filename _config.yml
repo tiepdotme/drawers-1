@@ -52,6 +52,10 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Archives
+tag_archive:
+  type: liquid
+  path: /tags/
 # Jekyll Archives Settings https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled: 'all'
