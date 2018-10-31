@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Drawers Surplus
 email: yves@film-storyboards.com
-description: Drawings, rough sketches, storyboards and concept illustrations accumulated in the drawers over the years # this means to ignore newlines until "baseurl:"
+description: Drawings, rough sketches, storyboards and concept illustrations accumulated in the drawers # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  YJPL
@@ -31,9 +31,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
-  - jekyll-archives
+# - jekyll-archives
   - jekyll-sitemap
-#  - jekyll-paginate
+# - jekyll-paginate
   - jekyll-seo-tag
 
 # Reading Files
@@ -54,17 +54,4 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
-# Jekyll Archives Settings https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled: 'all'
-  layout: 'archive-taxonomy'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-#    tag: '/tag/:name/'
-    category: '/category/:name/'
-  category_archive:
-    type: liquid
-  timezone: Europe/Paris
+timezone: Europe/Paris
