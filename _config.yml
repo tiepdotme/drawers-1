@@ -31,9 +31,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
-  - jekyll-archives
+#  - jekyll-archives
   - jekyll-sitemap
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-seo-tag
 
 # Reading Files
