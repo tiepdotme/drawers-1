@@ -31,7 +31,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
-#  - jekyll-archives
+  - jekyll-archives
   - jekyll-sitemap
 #  - jekyll-paginate
   - jekyll-seo-tag
@@ -54,10 +54,7 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Archives
-tag_archive:
-  type: liquid
-  path: /tags/
+
 # Jekyll Archives Settings https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled: 'all'
@@ -66,7 +63,7 @@ jekyll-archives:
     year: '/:year/'
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
+#    tag: '/tag/:name/'
     category: '/category/:name/'
   category_archive:
     type: liquid
