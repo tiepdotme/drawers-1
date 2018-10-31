@@ -8,6 +8,38 @@ layout: page
 
 <div class="container mx-auto">
   {% for post in site.categories[category_name] %}
-    {% include post_block.html %}
+    {% include post_block.html %}<div class="button"><a class="button" href="{{ post.url | relative_url }}">View post</a>
+    </div>
+
+    <div class="prose py-4" itemprop="articleBody">
+         <a href="{{ post.url | relative_url }}">
+           {% assign foundImage = 0 %}
+           {% assign images = post.content | split:"<img " %}
+             {% for image in images %}
+               {% if image contains 'src' %}
+
+               {% if foundImage == 0 %}
+               {% assign html = image | split:"/>" | first %}
+               {% assign tags = html | split:" " %}
+                 {% for tag in tags %}
+                   {% if tag contains 'src' %}
+                   <img {{ tag }} />
+                   {% endif %}
+               {% endfor %}
+               {% assign foundImage = 1 %}
+               {% endif %}
+                   {% endif %}
+                 {% endfor %}
+</div>
+                 {% if post.vimeo-id %}
+                   <div class="video-container">
+                     <iframe src="//player.vimeo.com/video/{{ post.vimeo-id }}?byline=0&amp;portrait=0" width="800" height="449" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                   </div>
+                 {% elsif post.youtube-id %}
+                   <div class="video-container">
+                     <iframe width="800" height="449" src="//www.youtube.com/embed/{{ post.youtube-id }}" frameborder="0" allowfullscreen></iframe>
+                   </div>
+                 {% endif %}
+
   {% endfor %}
 </div>
