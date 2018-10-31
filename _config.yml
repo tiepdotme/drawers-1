@@ -34,6 +34,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - jekyll-seo-tag
 
 # Reading Files
 include:
@@ -82,7 +83,7 @@ autopages:
   categories:
     # Optional, the list of layouts that should be processed for every category found in the site
     layouts:
-      - 'archive-taxonomy.html'
+      - 'autopage_tags.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
 #    title: 'Posts in category :cat'
     # Optional, the permalink for the  pagination page (:cat is replaced),

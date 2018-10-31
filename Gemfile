@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-archives'
   gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
 # gem "jekyll-athena"
 # gem 'github-pages'
  gem 'jekyll-paginate-v2'
