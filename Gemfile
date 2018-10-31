@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 # gem "jekyll-athena"
 # gem 'github-pages'
-# gem 'jekyll-paginate-v2'
+ gem 'jekyll-paginate-v2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
