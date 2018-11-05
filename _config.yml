@@ -57,3 +57,5 @@ include:
 #   - vendor/ruby/
 
 timezone: Europe/Paris
+
+github: [metadata]
