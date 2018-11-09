@@ -5,7 +5,7 @@
 This is @FilmStoryboard's [Drawers Surplus](https://film-storyboards.be "Drawers Surplus") codebase. The blog's content was ported from [Tumblr](https://film-storyboards.tumblr.com) Lots of current and older drawings, storyboards & illustration.
 
 <figure>
-<a href="https://film-storyboards.be"><img src="https://film-storyboards.be/images/picture_mrjat5oEsJ1s6ptp7o1_400.gi"/></a>
+<a href="https://film-storyboards.be"><img src="https://film-storyboards.be/images/picture_mrjat5oEsJ1s6ptp7o1_400.gif"/></a>
 </figure>
 
 ### Theme
