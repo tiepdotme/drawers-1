@@ -12,4 +12,4 @@ This is @FilmStoryboard's [Drawers Surplus](https://film-storyboards.be "Drawers
 This blog uses a slighlty modified version of [Athena](https://github.com/broccolini/athena), a simple and elegant theme for Jekyll and GitHub Pages by [Diana Mounter](http://broccolini.net). Modifications are mainly to be found in `—layouts`and `_includes` and consist in small tweaks to display images in the index and categories pages, and responsive video. There are no styling change except for smaller title size on posts to make images more prominent.
 
 ### License
-The content of this project itself, all illustrations & design works are (c) Yves JPL Capelle / [alternatyves outc.](https://alternatyves.com) / SOFAM. The underlying source code used to format and display that content is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+The content of this project itself, all illustrations & design works are © Yves JPL Capelle / [alternatyves outc.](https://alternatyves.com) / SOFAM. The underlying source code used to format and display that content is licensed under the [MIT License](https://opensource.org/licenses/MIT).
