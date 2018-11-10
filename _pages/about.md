@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /About/
+permalink: /about/
 ---
 
 <small>This is a mirror of [https://film-storyboards.tumblr.com](https://film-storyboards.tumblr.com "Film Storyboards on Tumblr")</small>
