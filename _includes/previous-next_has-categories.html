@@ -1,10 +1,4 @@
 <!-- Use if you want to show previous and next for posts within a category. -->
-<script>
-document.body.onkeyup = function(e){
-if (e.keyCode == '37') { window.location = '{{page.previous.url}}'; }
-if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
-};
-</script>
 
 {% if page.tags %}
   {% assign category = page.tags[0] %}
@@ -44,3 +38,10 @@ if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
   </a>
 </div>
 {% endif %}
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{page.previous.url}}'; }
+if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
+};
+</script>

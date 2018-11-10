@@ -1,10 +1,4 @@
 <!-- Use if you want to show previous and next for all posts. -->
-<script>
-document.body.onkeyup = function(e){
-if (e.keyCode == '37') { window.location = '{{page.previous.url}}'; }
-if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
-};
-</script>
 
 {% assign user_url = site.url | append: site.baseurl %}
 {% assign full_base_url = user_url | default: site.github.url %}
@@ -26,3 +20,10 @@ if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
     </a>
   </div>
 {% endif %}
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{page.previous.url}}'; }
+if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
+};
+</script>
