@@ -5,10 +5,9 @@ date: '2018-09-22T10:21:39+02:00'
 categories:
 - Templates
 ---
-<img src="/images/Apple-Pages-Japanese-Anime-Storyboard-Template-2x1-on-A4-vertical_00.png"/><br/><br/>
+<a href="https://gum.co/Ghibli_Pages_Jp_2x1"><img src="/images/Apple-Pages-Japanese-Anime-Storyboard-Template-2x1-on-A4-vertical_00.png"/><br/><br/>
 
-<script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gum.co/Ghibli_Pages_Jp_2x1" target="_blank">Get this anime template for Pages!</a>
+{% include gumroad-overlay.html id="Ghibli_Pages_Jp_2x1" %}
 
 This is a new Apple Pages anime storyboard template for DIN A4 vertical (portrait) page ready to use. You can edit the .template file in [Apple Pages](). Designed for anime storyboards, with 5 frames per sheet, each frame sets an exact 2.00:1 aspect ratio (Widescreen) space for pictures. The layout draws inspiration from the excellent Studio Ghibli storyboards.
 
