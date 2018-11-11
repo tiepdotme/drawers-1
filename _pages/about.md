@@ -8,11 +8,11 @@ permalink: /about/
 
 *[Film Storyboards](https://film-storyboards.com "Film Storyboards Portfolio")* provides with previz, production design and visual storytelling services for film, animation, <strike> advertising</strike> and cross-media projects.
 
-This blog shows preparatory drawings, rough sketches, storyboards and concept illustrations accumulated in the drawers over the years.
+<p>This blog shows preparatory drawings, rough sketches, storyboards and concept illustrations accumulated in the drawers over the years.</p>
 
 You can navigate the blog using tags on the right side menu. You can navigate from one post to another using your keyboard arrows.
 
-All works by <i>Yves Capelle</i> / <a href="https://alternatyves.com" title="alternatyves outc.">alternatyves outc.</a> / <a href="https://film-storyboards.com" title="Film Storyboards">Film Storyboards</a>, unless stated otherwise.
+<p>All works by <i>Yves Capelle</i> / <a href="https://alternatyves.com" title="alternatyves outc.">alternatyves outc.</a> / <a href="https://film-storyboards.com" title="Film Storyboards">Film Storyboards</a>, unless stated otherwise.</p>
 
 [Read more](https://film-storyboards.be/2013/03/15/film-storyboards "Read more about Film Storyboards Drawers").
 
@@ -36,9 +36,11 @@ Instagram: [instagram.com/filmstoryboards](https://www.instagram.com/filmstorybo
 <br>
 <br>
 <hr>
-## contact:
 
-Call +32  475 418 327 for commissions, illustrations and storyboarding  inquiries or send an email to <a href="https://film-storyboards.com/contact" title="Contact - Film Storyboards / Production Design">Yves Capelle</a>.
+<h2>contact:</h2>
+
+<p>Call +32  475 418 327 for commissions, illustrations and storyboarding  inquiries or send an email to <a href="https://film-storyboards.com/contact" title="Contact - Film Storyboards / Production Design">Yves Capelle</a>.</p>
+
 <hr>
 
 No free pitches, no spec work, no tests, thank you very much.
