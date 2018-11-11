@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: category-post
 title: Free storyboard template for 2:1 aspect ratio
 date: '2018-09-22T10:21:39+02:00'
 categories:
 - Templates
 ---
-<img src="/images/Film-Storyboards.com__Free_PDF_Storyboard-template_2x1_A4-vertical_print.png"/><br/><br/>
+<a href="https://gum.co/ghibli-storyboard_en_2x1"><img src="/images/Film-Storyboards.com__Free_PDF_Storyboard-template_2x1_A4-vertical_print.png"/>
+<br/><br/>
+{% include gumroad-overlay.html id="ghibli-storyboard_en_2x1" %}
 
 This is a free storyboard template in PDF format on DIN A4 vertical (portrait) page, designed for print. This template has 5 frames per sheet each in 2:1 aspect ratio (Univisium). The layout is inspired by the beautiful storyboards from Studio Ghibli.
 

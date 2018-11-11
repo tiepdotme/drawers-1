@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: category-post
 title: Apple Pages storyboard template for 16:9 aspect ratio
 date: '2018-09-22T10:21:39+02:00'
 categories:
 - Templates
 ---
-<img src="/images/Apple_Pages_Storyboard_Template_4-frames_16x9-aspect-ratio_Helvetica-10pt_DINA4_vertical_preview_02a.png"/><br/><br/>
+<a href="https://gum.co/storyboard_template_16x9_pages"><img src="/images/Apple_Pages_Storyboard_Template_4-frames_16x9-aspect-ratio_Helvetica-10pt_DINA4_vertical_preview_02a.png"/><br/><br/>
+
+{% include gumroad-overlay.html id="storyboard_template_16x9_pages" %}
 
 This is a new  storyboard template layout for films in 16:9 (1.77:1) aspect ratio that you can edit with [Apple Pages](https://www.apple.com/pages/). If you use a Mac and need to design presentations, Pages is a useful productivity app you can download for free from the Apple App Store.
 
