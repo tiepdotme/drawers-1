@@ -15,10 +15,6 @@ layout: default
   <div class="prose py-2" itemprop="articleBody">
       {{ content }}
 
-      {% if site.data.theme.category_tag_list %}
-      {% include category_tag_list.html %}
-      {%endif%}
-
       {% if page.vimeo-id %}
   <div class="responsive-video-container">
     <iframe src="//player.vimeo.com/video/{{ page.vimeo-id }}?byline=0&amp;portrait=0" width="800" height="449" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
