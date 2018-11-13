@@ -2,6 +2,7 @@
 layout: page
 ---
 
+{% assign page.category_name | sort: 'title' %}
 {% if page.category_name %}
   {% assign category_name = page.category_name %}
 {% endif %}
