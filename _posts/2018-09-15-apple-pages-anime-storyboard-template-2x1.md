@@ -1,7 +1,7 @@
 ---
 layout: category-post
 title: Apple Pages anime storyboard template for 2:1 aspect ratio
-date: '2018-09-22T10:21:39+02:00'
+date: '2018-09-15T10:21:39+02:00'
 categories:
 - Templates
 ---

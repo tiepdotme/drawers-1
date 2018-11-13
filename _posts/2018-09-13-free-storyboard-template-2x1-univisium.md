@@ -1,7 +1,7 @@
 ---
 layout: category-post
 title: Free storyboard template for 2:1 aspect ratio
-date: '2018-09-22T10:21:39+02:00'
+date: '2018-09-13T10:21:39+02:00'
 categories:
 - Templates
 ---
@@ -23,7 +23,7 @@ Print it out and start drawing on paper right away.
 
 If you need an editable version of this template, you can find the Adobe InDesign version here: [https://gum.co/Ghibli_En_idml_2x1](https://gum.co/Ghibli_En_idml_2x1).
 
-If you are looking for the free 1.85 (Widescreen) version of this template, you can find it here: [https://gum.co/ghibli-storyboard-english](https://gum.co/ghibli-storyboard-englis)
+If you are looking for the free 1.85 (Widescreen) version of this template, you can find it here: [https://gum.co/ghibli-storyboard-english](https://gum.co/ghibli-storyboard-english)
 
 
 <script src="https://gumroad.com/js/gumroad.js"></script><a class="gumroad-button" href="https://gum.co/ghibli-storyboard_en_2x1?wanted=true" target="_blank">Get this free 2:1 anime storyboard template!</a>
