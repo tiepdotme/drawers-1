@@ -26,7 +26,7 @@ FYI: The document size is a 21 x 30cm vertical sheet, about the size of a DIN A4
 
 Note that you need the Avenir typeface license to use this template.
 
-If you need storyboards arrows & icons, you can get some for free here: [https://gum.co/storyboard-arrows](https://gum.co/storyboard-arrow).
+If you need storyboards arrows & icons, you can get some for free here: [https://gum.co/storyboard-arrows](https://gum.co/storyboard-arrows).
 
 This template is ideal to design quick anime storyboard layouts and will help you create beautiful presentations!
 
