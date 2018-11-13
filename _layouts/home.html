@@ -11,7 +11,7 @@
 
         <div class="right absolute-lg right-0 top-0">
           <ul class="mt-2 mr-2 mr-lg-3">
-            {% assign pages_list = site.pages | sort: 'title'  %}
+            {% assign sortedPages = site.pages | sort: 'title' %}
             {% for my_page in site.pages %}
               {% if my_page.title %}
               <li class="inline-block block-lg text-right ml-1 ml-lg-0">
