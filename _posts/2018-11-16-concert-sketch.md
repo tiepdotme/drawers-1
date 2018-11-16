@@ -8,4 +8,4 @@ categories:
 
 <img src="/images/Balthasar-Neumann-Chor-&-Ensemble_01.jpg"/>
 
-Sketch from Balthasar-Neumann-Chor & Ensemble concert, yesterday evening [@BOZARbrussels](https://www.bozar.be/en), ballpoint.
+Sketch, people listening to Balthasar-Neumann-Chor & Ensemble playing Mozart's Requiem, yesterday evening  at [BOZAR](https://www.bozar.be/en), ballpoint.
