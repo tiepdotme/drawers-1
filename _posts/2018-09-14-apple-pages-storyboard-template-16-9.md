@@ -1,5 +1,5 @@
 ---
-layout: category-post
+layout: post
 title: Apple Pages storyboard template for 16:9 aspect ratio
 date: '2018-09-14T10:21:39+02:00'
 categories:
