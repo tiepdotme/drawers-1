@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concert Sketch
+title: Concert sketch
 date: "2018-11-16 18:20:30 +0100"
 categories:
 - Sketchbooks
@@ -10,4 +10,4 @@ categories:
 
 
 
-Sketch, people listening to Balthasar-Neumann-Chor & Ensemble playing Mozart's Requiem, yesterday evening  at [BOZAR](https://www.bozar.be/en), ballpoint.
+Sketch, people listening to [Balthasar-Neumann-Chor & Ensemble](http://www.balthasar-neumann.com/) playing Mozart's Requiem, yesterday evening  at [BOZAR](https://www.bozar.be/en), ballpoint.
