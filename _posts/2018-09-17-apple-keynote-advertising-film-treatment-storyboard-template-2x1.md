@@ -1,5 +1,5 @@
 ---
-layout: category-post
+layout: post
 title: Apple Keynote treatment and storyboard template
 date: '2018-09-17T10:21:39+02:00'
 categories:
