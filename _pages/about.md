@@ -14,7 +14,7 @@ You can navigate the blog using tags on the right side menu. You can navigate fr
 
 <p>All works by <i>Yves Capelle</i> / <a href="https://alternatyves.com" title="alternatyves outc.">alternatyves outc.</a> / <a href="https://film-storyboards.com" title="Film Storyboards">Film Storyboards</a>, unless stated otherwise.</p>
 
-[Read more](https://film-storyboards.be/2013/03/15/film-storyboards "Read more about Film Storyboards Drawers").
+[Read more]({{ site.url }}/storyboards/2013/03/15/film-storyboards.html "Read more about Film Storyboards Drawers").
 
 See [Film Storyboards portfolio](https://film-storyboards.com "Film Storyboards / Production Design") for more or [Scénarimages](https://film-storyboards.fr "Film Storyboards / Scénarimage") if you *préfère en français*.
 
