@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apple Pages storyboard template for 2:1 film ratio
+title: Apple Pages storyboard template for 2.00:1 film ratio
 date: '2019-01-20 11:31:26 +0100'
 categories:
 - Templates
