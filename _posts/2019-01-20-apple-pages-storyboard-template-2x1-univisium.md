@@ -25,7 +25,7 @@ Note that you need the Avenir typeface license to use this template—on Mac it 
 
 This template will help you create nice storyboards layouts and save up pre production time.
 
-You can get a similar Pages template for 2.39:1 aspect ratio films here: https://gum.co/2-39-A4-vert-pages, for 1.85 here: https://gum.co/storyboard_template_185x1_pages.
+You can get a similar Pages template for 2.39:1 aspect ratio films here: [https://gum.co/2-39-A4-vert-pages](https://gum.co/2-39-A4-vert-pages), for 1.85 here: [https://gum.co/storyboard_template_185x1_pages](https://gum.co/storyboard_template_185x1_pages).
 
 for 1.77:1 (16:9): [https://gum.co/storyboard_template_16x9_pages](https://gum.co/storyboard_template_16x9_pages)
 
