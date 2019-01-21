@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Apple Pages storyboard template for 2.00:1 film ratio
-date: '2019-01-20 11:31:26 +0100'
+title: Apple Pages storyboard template for 1.33:1 film ratio
+date: '2019-01-21 09:31:26 +0100'
 categories:
 - Templates
 ---
-<a href="https://gum.co/storyboard_template_2x1_pages"><img src="/images/Apple-Pages-storyboard-template-for-2x1-ratio-films_Avenir-Light-10pt_DIN-A4_vertical-sheet_overview.png"/><br/><br/>
+<a href="https://gum.co/storyboard_template_4x3_pages"><img src="/images/Apple-Pages-storyboard-template-for-1.33x1_ratio_films_Avenir_Light_10pt_DIN_A4_vertical_sheet_overview.png"/><br/><br/>
 
-{% include gumroad-overlay.html id="storyboard_template_2x1_pages" %}
+{% include gumroad-overlay.html id="storyboard_template_4x3_pages" %}
 
-This is a storyboard template layout for films in 2.00:1 aspect ratio ([Univisium](https://en.wikipedia.org/wiki/Univisium)) that you can edit with [Pages](https://www.apple.com/pages/), the free Apple productivity app.
+New storyboard template layout for films in 1.33:1 aspect ratio (old standard for traditional television & computer monitor) that you can edit with [Pages](https://www.apple.com/pages/), the free Apple productivity app.
 
 With three master pages to format your layout, this template is perfect to design quick storyboard layouts.
 
@@ -27,7 +27,9 @@ This template will help you create nice storyboards layouts and save up pre prod
 
 You can get a similar Pages template for 2.39:1 aspect ratio films here: [https://gum.co/2-39-A4-vert-pages](https://gum.co/2-39-A4-vert-pages),
 
-for 1.85 here: [https://gum.co/storyboard_template_185x1_pages](https://gum.co/storyboard_template_185x1_pages)
+for 2.00:1 here: [https://gum.co/storyboard_template_2x1_pages](https://gum.co/storyboard_template_2x1_pages)
+
+for 1.85:1 nere: [https://gum.co/storyboard_template_185x1_pages](https://gum.co/storyboard_template_185x1_pages)
 
 for 1.77:1 (16:9): [https://gum.co/storyboard_template_16x9_pages](https://gum.co/storyboard_template_16x9_pages)
 
