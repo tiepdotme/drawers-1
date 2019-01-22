@@ -25,4 +25,12 @@ Note that you need the Helvetica typeface license to use this template.
 
 This template will help you put together your storyboards layouts in no time.
 
-<script src="https://gumroad.com/js/gumroad.js"></script><a class="gumroad-button" href="https://gum.co/storyboard_template_16x9_pages?wanted=true" target="_blank">Get this Apple Pages Storyboard Template Now!</a>
+You can get a similar Pages template for 2.39:1 aspect ratio films here: [https://gum.co/2-39-A4-vert-pages](https://gum.co/2-39-A4-vert-pages),
+
+for 2.00:1 here: [https://gum.co/storyboard_template_2x1_pages](https://gum.co/storyboard_template_2x1_pages)
+
+for 1.85:1 nere: [https://gum.co/storyboard_template_185x1_pages](https://gum.co/storyboard_template_185x1_pages)
+
+for 1:33:1 (4:3): [https://gum.co/storyboard_template_4x3_pages](https://gum.co/storyboard_template_4x3_pages)
+
+and for 1:1 (square): [https://gum.co/storyboard_template_1x1_pages](https://gum.co/storyboard_template_1x1_pages).

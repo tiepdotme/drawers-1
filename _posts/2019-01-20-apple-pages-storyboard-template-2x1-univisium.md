@@ -32,3 +32,5 @@ for 1.85 here: [https://gum.co/storyboard_template_185x1_pages](https://gum.co/s
 for 1.77:1 (16:9): [https://gum.co/storyboard_template_16x9_pages](https://gum.co/storyboard_template_16x9_pages)
 
 and for 4:3 as well: [https://gum.co/storyboard_template_4x3_pages](https://gum.co/storyboard_template_4x3_pages)
+
+and for 1:1 (square): [https://gum.co/storyboard_template_1x1_pages](https://gum.co/storyboard_template_1x1_pages).
