@@ -29,7 +29,7 @@ If you are looking for a more advanced version of this template, check the [InDe
 
 This template will help you design neat Storyboards presentations fast.
 
-<script src="https://gumroad.com/js/gumroad.js"></script><a class="gumroad-button" href="https://gum.co/2-39-A4-vert-pages" target="_blank">Get this template</a></p>
+<script src="https://gumroad.com/js/gumroad.js"></script><a class="gumroad-button" href="https://gum.co/2-39-A4-vert-pages" target="_blank">Get this template</a>
 
 You can get a similar Pages template for 2.00:1 aspect ratio films here: [https://gum.co/storyboard_template_2x1_pages](https://gum.co/storyboard_template_2x1_pages)
 
