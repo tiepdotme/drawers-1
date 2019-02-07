@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Three frames per sheet Apple Pages storyboard template for square images
+title: Apple Pages storyboard template for square images, three frames per sheet 
 date: '2019-02-06 14:31:26 +0100'
 categories:
 - Templates
