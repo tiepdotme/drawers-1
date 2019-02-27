@@ -9,7 +9,7 @@ categories:
 
 {% include gumroad-overlay.html id="Ghibli_Pages_Jp_16x9" %}
 
-This is an anime storyboard template for DIN A4 vertical (portrait) page ready to use. You can edit this .template file with Apple Pages, . Designed for anime storyboards, with 5 frames per sheet, each frame sets an exact 16:9 aspect ratio space for pictures. The layout draws inspiration from the excellent Studio Ghibli storyboards.
+This is an anime storyboard template for DIN A4 vertical (portrait) page ready to use. You can edit this .template file with [Pages](https://www.apple.com/pages/), the free Apple productivity app. Designed for anime storyboards, with 5 frames per sheet, each frame sets an exact 16:9 aspect ratio space for pictures. The layout draws inspiration from the excellent Studio Ghibli storyboards.
 
 **Boxes:**
 
