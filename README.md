@@ -2,7 +2,7 @@
 :first_quarter_moon: An iteration of @FilmStoryboards drawers. Originally a mirror of [@FilmStoryboards' Tumblr blog](https://film-storyboards.tumblr.com), build with Jekyll.
 
 ### Source code
-This is @FilmStoryboard's [Drawers Surplus](https://film-storyboards.be "Drawers Surplus") codebase. The blog's content was ported from [Tumblr](https://film-storyboards.tumblr.com). Its main goal is to serve as a storage for some of my current and older drawings, storyboards & illustrations.
+This is @FilmStoryboard's [Drawers Surplus](https://film-storyboards.be "Drawers Surplus") codebase. Its main goal is to serve as a storage for some of my current and older drawings, storyboards & illustrations.
 
 <figure>
 <a href="https://film-storyboards.be"><img src="https://film-storyboards.be/images/picture_mrjat5oEsJ1s6ptp7o1_400.gif"/></a>
