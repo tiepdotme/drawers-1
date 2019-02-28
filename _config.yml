@@ -18,6 +18,7 @@ description: Drawings, rough sketches, storyboards and concept illustrations acc
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://film-storyboards.be" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  YJPL
+github_repo: drawers
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
