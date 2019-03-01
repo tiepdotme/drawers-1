@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Apple Pages anime storyboard template for 16:9 aspect ratio
+title: Apple Pages Japanese anime storyboard template for 16:9 aspect ratio
 date: '2019-02-27 10:24:24 +0100'
 categories:
 - Templates
