@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Apple Pages storyboard template for 1.85:1 film ratio
+title: Apple Pages storyboard template for 1.85:1 films
+description: Apple Pages storyboard template for 1.85:1 aspect ratio, with five frames per page
 date: '2019-01-19 11:31:26 +0100'
 categories:
 - Templates

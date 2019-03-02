@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apple Pages anime storyboard template for 16:9 aspect ratio
+description: Apple Pages template for anime storyboards, with 5 frames per sheet, for 16:9 aspect ratio
 date: '2019-03-01 12:24:48 +0100'
 categories:
 - Templates

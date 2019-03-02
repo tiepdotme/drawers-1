@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apple Pages storyboard template for 2.00:1 film ratio
+description: Apple Pages storyboard template layout for films in 2.00:1 aspect ratio (Univisium)
 date: '2019-01-20 11:31:26 +0100'
 categories:
 - Templates

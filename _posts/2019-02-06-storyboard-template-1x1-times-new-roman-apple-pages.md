@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Apple Pages storyboard template for square images, three frames per sheet 
+title: Apple Pages storyboard template for square images, three frames per sheet
+description: Apple Pages storyboard template layout for films in 1:1 aspect ratio, ideal for social media
 date: '2019-02-06 14:31:26 +0100'
 categories:
 - Templates

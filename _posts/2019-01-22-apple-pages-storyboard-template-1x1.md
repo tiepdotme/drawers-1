@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apple Pages storyboard template for 1:1 film ratio (square)
+description: Agency storyboard template for Apple Pages with three frames per page
 date: '2019-01-22 12:31:26 +0100'
 categories:
 - Templates
@@ -9,7 +10,7 @@ categories:
 
 {% include gumroad-overlay.html id="storyboard_template_1x1_pages" %}
 
-New storyboard template layout for films in 1:1 aspect ratio, ideal for video and photography on social media. You can edit this template with [Pages](https://www.apple.com/pages/), the free Apple productivity app.
+gency storyboard template for Apple Pages for films in 1:1 aspect ratio, ideal for video and photography on social media. You can edit this template with [Pages](https://www.apple.com/pages/), the free Apple productivity app.
 
 With three master pages to format your layout, this template is perfect to design quick storyboard layouts.
 
