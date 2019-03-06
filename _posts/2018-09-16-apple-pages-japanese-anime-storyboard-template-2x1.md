@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apple Pages anime storyboard template for 2:1 aspect ratio
+description: Apple Pages storyboard templated designed for Japanese anime with five frames (2.00:1 ratio) per page
 date: '2018-09-16T10:21:39+02:00'
 categories:
 - Templates

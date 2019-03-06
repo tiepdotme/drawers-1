@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apple Keynote treatment and storyboard template
+description: Apple Keynote theme for film treatments and storyboards, in 16:9 (1.77:1) aspect ratio
 date: '2018-09-21T10:21:39+02:00'
 categories:
 - Templates

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Free storyboard template for 2:1 aspect ratio
+description: Free storyboard template Univisium
 date: '2018-09-13T10:21:39+02:00'
 categories:
 - Templates
