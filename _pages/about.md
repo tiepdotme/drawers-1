@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<small>This is a mirror of [https://film-storyboards.tumblr.com](https://film-storyboards.tumblr.com "Film Storyboards on Tumblr")</small>
-
 *[Film Storyboards](https://film-storyboards.com "Film Storyboards Portfolio")* provides with previz, production design and visual storytelling services for film, animation, <strike> advertising</strike> and cross-media projects.
 
 <p>This blog shows preparatory drawings, rough sketches, storyboards and concept illustrations accumulated in the drawers over the years.</p>
@@ -45,3 +43,8 @@ Instagram: [instagram.com/filmstoryboards](https://www.instagram.com/filmstorybo
 
 No free pitches, no spec work, no tests, thank you very much.
 <hr>
+
+<br>
+<br>
+
+<small>This blog started as a mirror of [https://film-storyboards.tumblr.com](https://film-storyboards.tumblr.com "Film Storyboards on Tumblr")</small>
