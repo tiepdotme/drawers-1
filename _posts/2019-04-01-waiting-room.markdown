@@ -7,6 +7,6 @@ categories:
 - Sketches
 - Sketchbooks
 ---
-![waiting room sketch](/images/20190329_sketch.jpg)
+<img src="/images/20190329_sketch.jpg"/>
 
 People waiting, hospital Delta, Brussels, from sketchbook.
