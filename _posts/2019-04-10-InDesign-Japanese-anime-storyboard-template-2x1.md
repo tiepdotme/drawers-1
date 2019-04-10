@@ -10,7 +10,7 @@ categories:
 
 {% include gumroad-overlay.html id="Ghibli_Jp_idml_2x1" %}
 
-HOW TO USE THIS TEMPLATE: This is a storyboard template on DIN A4 vertical (portrait) page for 2:1 aspect ratio (Univisium) storyboards, with 5 frames per sheet. This layout draws inspiration from the beautiful Studio Ghibli layouts. You can either edit this storyboard template with Adobe InDesign or print the blank one out to work on paper, the old school way (no cheating).
+HOW TO USE THIS TEMPLATE: This is an anime storyboard template on DIN A4 vertical (portrait) page for 2:1 aspect ratio (Univisium) storyboards, with 5 frames per sheet. This layout draws inspiration from the beautiful Studio Ghibli layouts. You can either edit this storyboard template with Adobe InDesign or print the blank one out to work on paper, the old school way (no cheating).
 
 **Boxes:**
 
