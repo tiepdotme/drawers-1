@@ -32,4 +32,6 @@ You need the font Avenir installed on your machine for this template to work pro
 
 This template will save you time and help you design beautiful storyboards.
 
+You can get the free version of this template in PDF here: [https://gum.co/ghibli-storyboard_Jp_pdf_2x1](https://gum.co/ghibli-storyboard_Jp_pdf_2x1)
+
 You can get the english version of this template here: [https://gum.co/Ghibli_En_idml_2x1](https://gum.co/Ghibli_En_idml_2x1)
