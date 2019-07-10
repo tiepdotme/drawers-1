@@ -9,7 +9,7 @@ _site
 codekit-config.json
 config.codekit3
 Gemfile.lock
-node_modules/
+node_modules
 npm-debug.log*
 .ruby-version
 vendor
