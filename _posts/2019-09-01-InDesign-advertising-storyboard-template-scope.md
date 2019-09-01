@@ -27,4 +27,4 @@ Note that you need the Avenir Next typeface license to use this template.
 This template will help you save time and design beautiful presentations.
 
 
-You can see an example of this template in use here: [https://film-storyboards.fr/balle-en-cloche/](https://film-storyboards.fr/balle-en-cloche/) and here: [https://film-storyboards.fr/la-croisade-des-enfants-scene-529/](https://film-storyboards.fr/la-croisade-des-enfants-scene-529/)
+You can see an example of this template in use here: [https://film-storyboards.fr/balle-en-cloche/](https://film-storyboards.fr/balle-en-cloche/)
