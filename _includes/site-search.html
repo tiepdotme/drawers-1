@@ -1,17 +1,17 @@
-<div class="form  form--search">
-  <form id="contact-form" action="">
-    <label class="label" for="search">Search term:</label>
-    <input class="input" id="search" type="search" name="search" placeholder="e.g. storyboard" autocomplete="off" />
+<div class="form form--search">
+  <form id="contact-form" action="https://film-storyboards.be">
+    <label class="label f6 ttu tracked purple avenir" for="search">Search:</label>
+    <input class="input tc f5 light-purple avenir" id="search" type="search" name="search" placeholder="e.g. storyboard" autocomplete="off" />
 
-    <ul class="list  list--results" id="list">
+    <ul class="list list--results" id="list">
         <!-- results go here -->
     </ul>
   </form>
 </div>
 
-<script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/fetch.js"></script>
 <script type="text/javascript">
-  const endpoint = '{{ "/assets/search.json" | relative_url }}';
+  const endpoint = '{{ "/assets/search.json" | absolute_url  }}';
 
   const pages = [];
 
