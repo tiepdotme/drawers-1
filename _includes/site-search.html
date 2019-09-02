@@ -9,9 +9,9 @@
   </form>
 </div>
 
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/fetch.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/fetch.js" | relative_url }}"></script>
 <script type="text/javascript">
-  const endpoint = '{{ "/assets/search.json" | absolute_url  }}';
+  const endpoint = '{{ "/assets/search.json" | relative_url }}';
 
   const pages = [];
 
@@ -32,7 +32,7 @@
       return `
         <li class="item  item--result">
           <article class="article  typeset">
-            <h4><a href="${item.url}">${item.title}</a></h4>
+            <h4><a class="cf bn ma0 pa0 link no-underline black" href="${item.url}">${item.title}</a></h4>
             <p>${item.excerpt}</p>
           </article>
         </li>`;
