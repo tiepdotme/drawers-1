@@ -10,7 +10,7 @@ categories:
 
 {% include gumroad-overlay.html id="free-stb-template_idml" %}
 
-TThis is a free advertising storyboard template layout for 1.85:1 films, that you can edit with  [Adobe InDesign](https://adobe.com/products/indesign/). IDML (InDesign Markup) is compatible with all Adobe InDesign versions from CS4 to CC 2019.
+This is a free advertising storyboard template layout for 1.85:1 films, that you can edit with  [Adobe InDesign](https://adobe.com/products/indesign/). IDML (InDesign Markup) is compatible with all Adobe InDesign versions from CS4 to CC 2019.
 
 This template is designed to showcase storyboards for TV commercials, institutional movies and ideal for agency pitches.
 
