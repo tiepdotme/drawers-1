@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-*[Film Storyboards](https://film-storyboards.com "Film Storyboards Portfolio")* provides with previz, production design and visual storytelling services for film, animation, <strike> advertising</strike> and cross-media projects.
+*[Film Storyboards](https://film-storyboards.com "Film Storyboards Portfolio")* provides with previz, production design, and visual storytelling services for film, animation, <strike> advertising</strike>, and cross-media projects.
 
 <p>This blog shows preparatory drawings, rough sketches, storyboards and concept illustrations accumulated in the drawers over the years.</p>
 
-You can navigate the blog by tags using the right hand side menu, and go from one post to another using your keyboard arrows.
+You can navigate the blog by tags using the right-hand side menu, and go from one post to another using your keyboard arrows.
 
 <p>All works by <i>Yves Capelle</i> / <a href="https://alternatyves.com" title="alternatyves outc.">alternatyves outc.</a> / <a href="https://film-storyboards.com" title="Film Storyboards">Film Storyboards</a>, unless stated otherwise.</p>
 
