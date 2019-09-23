@@ -10,7 +10,7 @@ categories:
 
 {% include gumroad-overlay.html id="univisium-A4" %}
 
-This is a modular storyboard template layout for 2.00:1 films, editable with Adobe InDesign. IDML (InDesign Markup) is compatible with all Adobe InDesign versions from CS4 to CC 2019.
+This is a modular storyboard template layout for 2.00:1 films, editable with [Adobe InDesign](https://adobe.com/products/indesign/). IDML (InDesign Markup) is compatible with all Adobe InDesign versions from CS4 to CC 2019.
 
 This template consists of 20 DIN A4 vertical (portrait) numbered pages. You can pick between several different layouts and variations. Four storyboard frames facing text, text facing four frames rows, or eight frames per page. This template lets you write your treatment notes alongside your storyboard pictures. Pagination will appear on the top right of each page. You can number your scenes, as well as your shots or cuts. To get going, all you have to do is change the **Text** and **Images** layers in InDesign to make it your own. Fill in the title page, add your credit and project details, add a logo, and so on. Your presentation is then ready for export to print or screen. The text is set in the classic screenplay form type, Courier 10 points with 12 points leading. For images, drop your pictures in the **Images** layer. You can show or hide the *rule of thirds* layer guides in locked layer to help you frame your compositions.
 

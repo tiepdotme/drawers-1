@@ -10,7 +10,7 @@ categories:
 
 {% include gumroad-overlay.html id="keynote-widescreen-treatment" %}
 
-This is a paginated Apple Keynote theme for film storyboards, in 1.85:1 (widescreen) aspect ratio. With 25 master slides, this theme is ready for print or screen use. There are title pages, intro pages, treatment pages, a text + three frames master, a three frames, notes + set plan + 3 frames, 6 frames numbered, single frame pages and an icon master.
+This is a paginated [Apple Keynote](https://www.apple.com//keynote/) theme for film storyboards, in 1.85:1 (widescreen) aspect ratio. With 25 master slides, this theme is ready for print or screen use. There are title pages, intro pages, treatment pages, a text + three frames master, a three frames, notes + set plan + 3 frames, 6 frames numbered, single frame pages and an icon master.
 
 To create your storyboard, first, add a new slide—in the left area navigator (**Add Slide**).
 
