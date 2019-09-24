@@ -6,7 +6,7 @@ date: '2019-02-06 14:31:26 +0100'
 categories:
 - Templates
 ---
-<a href="https://gum.co/storyboard_template_square_pages"><img src="/images/Apple-Pages-storyboard-template-for-1x1-ratio-films_Times-New-Roman-12pt_DIN-A4_vertical-sheet_overview.png"/><br/><br/>
+<a href="https://gum.co/storyboard_template_square_pages"><img src="/images/Apple-Pages-storyboard-template-for-1x1-ratio-films_Times-New-Roman-12pt_DIN-A4_vertical-sheet_overview_update.png"/><br/><br/>
 
 {% include gumroad-overlay.html id="storyboard_template_square_pages" %}
 
