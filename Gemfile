@@ -10,7 +10,6 @@ source "https://rubygems.org"
 # Happy Jekylling! Keeping this uncommented for now.
 # Because this repo runs on an older Jekyll version whitelisted by github-pages
  gem "jekyll", "~> 3.8.5"
- gem "nokogiri", ">= 1.10.4"
 
 # This is the theme for this Jekyll sites. You may change this to anything you like.
 #gem "jekyll-athena"
