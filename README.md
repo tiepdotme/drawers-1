@@ -1,5 +1,5 @@
 # drawers
-:first_quarter_moon: An iteration of [@FilmStoryboards](http://twitter.com/filmStoryboards/) drawers. Originally a mirror of [@FilmStoryboards' Tumblr blog](https://film-storyboards.tumblr.com), build with Jekyll.
+:first_quarter_moon: Repository for [@FilmStoryboards](http://twitter.com/filmStoryboards/) drawers. Originally a mirror of [@FilmStoryboards' Tumblr blog](https://film-storyboards.tumblr.com), build with Jekyll.
 
 ### Source code
 This is @FilmStoryboard's [Drawers Surplus](https://film-storyboards.be "Drawers Surplus") codebase. Its main goal is to serve as a storage for some of my current and older drawings, storyboards & illustrations.
