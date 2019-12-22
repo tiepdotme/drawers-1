@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Freelancer invoice template US
+title: Freelancer invoice template (US)
 description: Free InDesign Storyboard template for advertising — format 1.85:1 Avenir Book 10pt on A4 vertical
 date: '2019-12-22 12:24:48 +0100'
 categories:
