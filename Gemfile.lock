@@ -243,7 +243,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
+  jekyll (~> 3.8.7)
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
