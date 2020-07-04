@@ -6,4 +6,4 @@ categories:
 - Caricature
 ---
 ![Bataille médiatique](/images/Dessin-02-Bataille-Mediatique.png)
-Dessin humoristique réalisé en collaboration avec [Guillaume Grignard](@GrignardG) pour illustrer sa thèse sur les relations entre l'humour & la politique.
+Dessin humoristique réalisé en collaboration avec [Guillaume Grignard](https://twitter.com/@GrignardG) pour illustrer sa thèse sur les relations entre l'humour & la politique.
