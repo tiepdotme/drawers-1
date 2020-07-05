@@ -7,4 +7,4 @@ categories:
 - Graphic Design
 ---
 ![Alfieri Maserati portrait](/images/Classiche-Masters-Alfieri-Maserati-portrait.png)
-Design for Classiche Masters, in collaboration with Onno Hesselink.
+Design for [Classiche Masters](https://www.classichemasters.com), in collaboration with Onno Hesselink.
