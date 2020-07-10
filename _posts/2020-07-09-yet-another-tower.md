@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tower
+title: Another Tower
 date: '2020-07-09 06:14:24 +0100'
 categories:
 - Architecture
