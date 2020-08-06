@@ -3,6 +3,7 @@ layout: post
 title: Free Japanese anime storyboard template for 16:9 films
 description: Japanese Anime Storyboard Template 1.77:1 Aspect Ratio on A4 Vertical for Adobe InDesign
 date: '2020-08-05 06:24:48 +0100'
+last_modified_at: 2020-08-06
 categories:
 - Templates
 ---
@@ -25,7 +26,7 @@ Print it out and start drawing on paper, that's the way to do it!
 
 
 
-You can find the (free) english version of this template here: (soon)
+You can find the (free) English version of this template here: [https://gum.co/ghibli-storyboard_En_pdf_16x9](https://gum.co/ghibli-storyboard_En_pdf_16x9)
 
 If you need an editable version of this template, you can find the Adobe InDesign version here: [https://gum.co/Ghibli_Jp_idml_16x9](https://gum.co/Ghibli_Jp_idml_16x9)
 
