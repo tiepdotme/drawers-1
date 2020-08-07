@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Anime storyboard template for 16:9 films
+title: InDesign anime storyboard template for 16:9 films
 description: Anime Storyboard Template 1.77:1 Aspect Ratio on A4 Vertical for Adobe InDesign
 date: '2020-08-06 06:24:48 +0100'
+last_modified_at: 2020-08-06
 categories:
 - Templates
 ---
