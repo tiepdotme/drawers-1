@@ -8,7 +8,6 @@ categories:
 - Storyboards
 - Advertising
 - Animation
--
 ---
 ![Animatic storyboard for a pitch](/images/Proximus_Pitch_No_Limit-board-animatic_960.gif)
 
