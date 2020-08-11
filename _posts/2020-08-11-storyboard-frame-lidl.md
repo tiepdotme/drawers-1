@@ -8,7 +8,7 @@ categories:
 - Storyboards
 - Advertising
 ---
-![Storyboard frame, prehistoric family](/images/Lidl_Carottes Bio-board-00026.png)
+![Storyboard frame, prehistoric family](/images/Lidl_Carottes-Bio-board-00026.png)
 
 Director: **[Beatrice Pegard](https://www.beatricepegardferry.com)**
 Production: **[HAMLET](https://hamlet.tv)**
